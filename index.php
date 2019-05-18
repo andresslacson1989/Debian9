@@ -1,26 +1,3 @@
-<?php
-	switch ($_SERVER["SCRIPT_NAME"]) {
-		case "/php-template/about.php":
-			$CURRENT_PAGE = "About"; 
-			$PAGE_TITLE = "About Us";
-			break;
-		case "/php-template/contact.php":
-			$CURRENT_PAGE = "Contact"; 
-			$PAGE_TITLE = "Contact Us";
-			break;
-		case "/php-template/vpn.php":
-			$CURRENT_PAGE = "VPN"; 
-			$PAGE_TITLE = "VPN Panel";
-			break;
-		case "/php-template/public.php":
-			$CURRENT_PAGE = "Public Panel"; 
-			$PAGE_TITLE = "Public Panel";
-			break;
-		default:
-			$CURRENT_PAGE = "Index";
-			$PAGE_TITLE = "VPN SERVER!";
-	}
-?>
 <!DOCTYPE html>
 <html>
 <head>
