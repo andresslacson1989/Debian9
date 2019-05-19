@@ -1,0 +1,7 @@
+
+#!/bin/sh -e
+nameserver 1.1.1.1
+nameserver 1.0.0.1
+iptables-restore < /etc/iptables.up.rules
+swapon /var/swap.img
+exit 0
