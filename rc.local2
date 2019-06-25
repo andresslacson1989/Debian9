@@ -1,0 +1,5 @@
+#!/bin/sh -e
+echo "nameserver 1.1.1.1" > /etc/resolv.conf
+echo "nameserver 1.0.0.1" >> /etc/resolv.conf
+iptables-restore < /etc/iptables.up.rules
+exit 0
