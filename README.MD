@@ -9,6 +9,6 @@ Debian 9 64bit - Client2: wget https://github.com/andresslacson1989/Debian9/raw/
 
 rclocal fix : wget https://raw.githubusercontent.com/andresslacson1989/Debian9/master/rclocal.sh && chmod +x rclocal.sh && ./rclocal.sh
 
-rclocal fix : wget https://raw.githubusercontent.com/andresslacson1989/Debian9/master/rclocal2.sh && chmod +x rclocal2.sh && ./rclocal2.sh
+rclocal fix2 : wget https://raw.githubusercontent.com/andresslacson1989/Debian9/master/rclocal2.sh && chmod +x rclocal2.sh && ./rclocal2.sh
 
 Official PhCyber Script
