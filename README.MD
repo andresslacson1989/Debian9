@@ -12,4 +12,6 @@ Debian 9 64bit - Client2: wget https://github.com/andresslacson1989/Debian9/raw/
 
 rclocal fix2 : wget https://raw.githubusercontent.com/andresslacson1989/Debian9/master/rclocal2.sh && chmod +x rclocal2.sh && ./rclocal2.sh
 
+Beta OpenConnect: wget https://github.com/andresslacson1989/Debian9/blob/master/installopen?raw=true && chmod +x installopen && ./installopen
+
 Official PhCyber Script
